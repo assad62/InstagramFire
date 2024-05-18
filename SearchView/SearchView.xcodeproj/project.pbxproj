@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		33972A6C2BF8496000BEF659 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33972A6B2BF8496000BEF659 /* SearchBar.swift */; };
+		33972A6F2BF84DD100BEF659 /* UIApplication+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33972A6E2BF84DD100BEF659 /* UIApplication+Extensions.swift */; };
+		33972A732BF84F0A00BEF659 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33972A722BF84F0A00BEF659 /* UserCell.swift */; };
+		33972A752BF84F1900BEF659 /* UserListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33972A742BF84F1900BEF659 /* UserListView.swift */; };
+		33972A7A2BF8529900BEF659 /* PostGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33972A792BF8529900BEF659 /* PostGridView.swift */; };
 		33DB61F12BCAE9D200540153 /* SearchView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33DB61E82BCAE9D200540153 /* SearchView.framework */; };
 		33DB61F62BCAE9D200540153 /* SearchViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33DB61F52BCAE9D200540153 /* SearchViewTests.swift */; };
 		33DB623D2BCAEA8000540153 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33DB623C2BCAEA8000540153 /* SearchView.swift */; };
@@ -23,6 +28,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		33972A6B2BF8496000BEF659 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		33972A6E2BF84DD100BEF659 /* UIApplication+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+Extensions.swift"; sourceTree = "<group>"; };
+		33972A722BF84F0A00BEF659 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		33972A742BF84F1900BEF659 /* UserListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListView.swift; sourceTree = "<group>"; };
+		33972A792BF8529900BEF659 /* PostGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostGridView.swift; sourceTree = "<group>"; };
 		33DB61E82BCAE9D200540153 /* SearchView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SearchView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		33DB61F02BCAE9D200540153 /* SearchViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SearchViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		33DB61F52BCAE9D200540153 /* SearchViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewTests.swift; sourceTree = "<group>"; };
@@ -48,6 +58,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		33972A6D2BF84DC000BEF659 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				33972A6E2BF84DD100BEF659 /* UIApplication+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		33972A712BF84EF500BEF659 /* SearchUser */ = {
+			isa = PBXGroup;
+			children = (
+				33972A722BF84F0A00BEF659 /* UserCell.swift */,
+				33972A742BF84F1900BEF659 /* UserListView.swift */,
+			);
+			path = SearchUser;
+			sourceTree = "<group>";
+		};
+		33972A782BF8528E00BEF659 /* PostGrid */ = {
+			isa = PBXGroup;
+			children = (
+				33972A792BF8529900BEF659 /* PostGridView.swift */,
+			);
+			path = PostGrid;
+			sourceTree = "<group>";
+		};
 		33DB61DE2BCAE9D200540153 = {
 			isa = PBXGroup;
 			children = (
@@ -69,7 +104,11 @@
 		33DB61EA2BCAE9D200540153 /* SearchView */ = {
 			isa = PBXGroup;
 			children = (
+				33972A782BF8528E00BEF659 /* PostGrid */,
+				33972A712BF84EF500BEF659 /* SearchUser */,
+				33972A6D2BF84DC000BEF659 /* Extensions */,
 				33DB623C2BCAEA8000540153 /* SearchView.swift */,
+				33972A6B2BF8496000BEF659 /* SearchBar.swift */,
 			);
 			path = SearchView;
 			sourceTree = "<group>";
@@ -191,7 +230,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33972A732BF84F0A00BEF659 /* UserCell.swift in Sources */,
+				33972A752BF84F1900BEF659 /* UserListView.swift in Sources */,
+				33972A7A2BF8529900BEF659 /* PostGridView.swift in Sources */,
 				33DB623D2BCAEA8000540153 /* SearchView.swift in Sources */,
+				33972A6C2BF8496000BEF659 /* SearchBar.swift in Sources */,
+				33972A6F2BF84DD100BEF659 /* UIApplication+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

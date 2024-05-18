@@ -8,12 +8,23 @@
 import SwiftUI
 
 public struct SearchView: View {
+    
+    @State var searchText = ""
+    @State var inSearchMode = false
     public init(){}
     public var body: some View {
-        Text("Search View")
+        ScrollView{
+            SearchBar(text: $searchText, isEditing: $inSearchMode)
+                .padding()
+            ZStack{
+                if inSearchMode {
+                    UserListView()
+                }
+                else{
+                    PostGridView()
+                }
+            }
+        }
+        
     }
-}
-
-#Preview {
-    SearchView()
 }

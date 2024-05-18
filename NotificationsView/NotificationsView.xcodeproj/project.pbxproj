@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		33972A7E2BF853E600BEF659 /* NotificationsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33972A7D2BF853E600BEF659 /* NotificationsCell.swift */; };
 		33DB621C2BCAE9FB00540153 /* NotificationsView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33DB62132BCAE9FA00540153 /* NotificationsView.framework */; };
 		33DB62212BCAE9FB00540153 /* NotificationsViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33DB62202BCAE9FB00540153 /* NotificationsViewTests.swift */; };
 		33DB623F2BCAEAA900540153 /* NotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33DB623E2BCAEAA900540153 /* NotificationsView.swift */; };
@@ -23,6 +24,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		33972A7D2BF853E600BEF659 /* NotificationsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsCell.swift; sourceTree = "<group>"; };
 		33DB62132BCAE9FA00540153 /* NotificationsView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NotificationsView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		33DB621B2BCAE9FB00540153 /* NotificationsViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotificationsViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		33DB62202BCAE9FB00540153 /* NotificationsViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsViewTests.swift; sourceTree = "<group>"; };
@@ -70,6 +72,7 @@
 			isa = PBXGroup;
 			children = (
 				33DB623E2BCAEAA900540153 /* NotificationsView.swift */,
+				33972A7D2BF853E600BEF659 /* NotificationsCell.swift */,
 			);
 			path = NotificationsView;
 			sourceTree = "<group>";
@@ -191,6 +194,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33972A7E2BF853E600BEF659 /* NotificationsCell.swift in Sources */,
 				33DB623F2BCAEAA900540153 /* NotificationsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

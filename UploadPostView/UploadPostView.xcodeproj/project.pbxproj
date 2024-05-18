@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		33972A802BF85B5200BEF659 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33972A7F2BF85B5200BEF659 /* ImagePicker.swift */; };
+		33972A822BF85EF600BEF659 /* TextArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33972A812BF85EF600BEF659 /* TextArea.swift */; };
 		33DB62532BCAEAF000540153 /* UploadPostView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33DB624A2BCAEAF000540153 /* UploadPostView.framework */; };
 		33DB62582BCAEAF000540153 /* UploadPostViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33DB62572BCAEAF000540153 /* UploadPostViewTests.swift */; };
 		33DB626C2BCAEB0200540153 /* UploadPostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33DB626B2BCAEB0200540153 /* UploadPostView.swift */; };
@@ -23,6 +25,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		33972A7F2BF85B5200BEF659 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		33972A812BF85EF600BEF659 /* TextArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextArea.swift; sourceTree = "<group>"; };
 		33DB624A2BCAEAF000540153 /* UploadPostView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UploadPostView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		33DB62522BCAEAF000540153 /* UploadPostViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UploadPostViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		33DB62572BCAEAF000540153 /* UploadPostViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadPostViewTests.swift; sourceTree = "<group>"; };
@@ -70,6 +74,8 @@
 			isa = PBXGroup;
 			children = (
 				33DB626B2BCAEB0200540153 /* UploadPostView.swift */,
+				33972A7F2BF85B5200BEF659 /* ImagePicker.swift */,
+				33972A812BF85EF600BEF659 /* TextArea.swift */,
 			);
 			path = UploadPostView;
 			sourceTree = "<group>";
@@ -192,6 +198,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				33DB626C2BCAEB0200540153 /* UploadPostView.swift in Sources */,
+				33972A822BF85EF600BEF659 /* TextArea.swift in Sources */,
+				33972A802BF85B5200BEF659 /* ImagePicker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

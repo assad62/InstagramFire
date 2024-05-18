@@ -10,7 +10,12 @@ import SwiftUI
 public struct ProfileView: View {
     public init (){}
     public var body: some View {
-        Text("Profile view")
+        VStack(spacing:32){
+            ProfileHeaderView()
+                .padding()
+            PostGridView()
+        }.padding(.top)
+       
     }
 }
 
